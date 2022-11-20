@@ -2,18 +2,19 @@
   "name": "@jordanjlatimer/jest-config",
   "version": "0.0.1",
   "description": "Base jest.config.js for monorepo",
-  "main": "jest.config.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/jordanjlatimer/ts-config.git"
+    "url": "git+https://github.com/jordanjlatimer/jest-config.git"
   },
   "author": "Jordan Latimer",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/jordanjlatimer/ts-config/issues"
+    "url": "https://github.com/jordanjlatimer/jest-config/issues"
   },
-  "homepage": "https://github.com/jordanjlatimer/ts-config#readme"
+  "homepage": "https://github.com/jordanjlatimer/ts-config#readme",
+  "dependencies": {
+    "eslint": "^8.28.0",
+    "jest": "^29.3.1",
+    "ts-jest": "^29.0.3"
+  }
 }
