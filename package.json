@@ -14,5 +14,13 @@
   "homepage": "https://github.com/jordanjlatimer/ts-config#readme",
   "dependencies": {
     "ts-jest": "^29.0.3"
-  }
+  },
+  "main": "jest-preset.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "jest"
+  ]
 }
